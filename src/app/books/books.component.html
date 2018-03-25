@@ -1,0 +1,8 @@
+<!--container-->
+  <div class="container section">
+    <h2 class="title" *ngIf="selectedCategory">{{selectedCategory.display_name}}</h2>
+    <!-- columns -->
+      <ng-book-card *ngFor="let book of books; let i=index;" [book]="book" [i]="i"></ng-book-card>
+    <!-- columns -->
+  </div>
+<!--container-->
