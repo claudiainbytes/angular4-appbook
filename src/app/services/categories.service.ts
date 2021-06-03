@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 @Injectable()
 export class CategoriesService {
 
-  jsonURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=9a666afbb9ad44389631e426a50ab906";
+  jsonURL = "https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=q6w6B8GO0IoxGvcXvX86bmMTndwr3En8";
 
   constructor(private http:Http) { }
 
